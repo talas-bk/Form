@@ -6,7 +6,7 @@
 
 body {
   height: 100vh;
-  background: url(/img/pexels-bri-schneiter-28802-346529.jpg);
+  background-image: url(./img/pexels-bri-schneiter-28802-346529.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@ section {
 
 article {
   width: 370px;
-  height: 370px;
+  height: 410px;
   display: flex;
   border-radius: 20px;
   justify-content: center;

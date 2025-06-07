@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/media.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <h1>Logo</h1>
+        <ul class="nav-links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+        </ul>
+        <div class="login-box">
+        <a class="login-head" href="#">Login</a>
+      </div>
+      </header>
+
+      <section>
+        <article id="form" class="form-check">
+          <button class="remove">X</button>
+
+          <form class="form login">
+            <div class="form-contact">
+              <h1 style="font-weight: 700; text-align: center; font-size: 30px;">
+                Login
+              </h1>
+            <div class="inputs">
+              <input type="email" placeholder="Email">
+              <img class="person" src="/img/email_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" />
+            </div>
+            <br>
+              <div class="inputs">
+                <input type="password" placeholder="Password"/>
+                <img class="person" src="/img/lock_24dp_E3E3E3.svg" />
+              </div>
+            </div>
+
+            <div class="check-box">
+              <label for="remember">
+                <input type="checkbox" />Remember me
+              </label>
+              <a href="#">Forgot password ?</a>
+            </div>
+
+            <div class="button-register">
+              <button>Login</button>
+
+              <p class="register">
+                Don`t have an account ?
+                <a id="registerlink" href="#"> Register</a>
+              </p>
+            </div>
+          </form>
+
+          <form class="form register">
+            <div class="form-contact">
+              <h1 style="font-weight: 700; text-align: center; font-size: 30px">
+                Registration
+              </h1>
+              <div class="inputs">
+                <input type="text" placeholder="Your name"/>
+                <img class="person" src="/img/person_24dp_E3E3E3.svg" />
+              </div>
+               <br>
+            <div class="inputs">
+              <input type="email" placeholder="Email"/>
+              <img class="person" src="/img/email_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" width="23px" />
+              </div>
+            </div>
+
+            <div class="check-box">
+              <label for="remember">
+                <input type="checkbox" id="remember" />I agree with terms & conditions
+              </label>
+            </div>
+
+            <div class="button-register">
+              <button>Register</button>
+
+              <p class="register">
+                Already have an account?
+                <a id="loginlink" href="#">Login</a>
+              </p>
+            </div>
+          </form>
+        </article>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
